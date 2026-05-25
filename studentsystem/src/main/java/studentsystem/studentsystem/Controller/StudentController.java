@@ -16,7 +16,7 @@ import studentsystem.studentsystem.Service.StudentService;
 
 @RestController
 @RequestMapping("/student")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost"})
 public class StudentController {
 
     @Autowired
